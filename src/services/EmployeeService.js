@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const EMPLOYEE_API_BASE_URL = "http://employeesspringbootapp-env-1.eba-kebpe4ta.ap-south-1.elasticbeanstalk.com/api/v1/employees"
+const EMPLOYEE_API_BASE_URL = "https://a6cdbun7te.execute-api.ap-south-1.amazonaws.com/api/v1/employees"
+//"http://employeesspringbootapp-env-1.eba-kebpe4ta.ap-south-1.elasticbeanstalk.com/api/v1/employees"
 //"http://localhost:8080/api/v1/employees"
 class EmployeeService {
 
